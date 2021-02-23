@@ -12,7 +12,7 @@
 //    public void Five() {
 //        setInput("5");
 //        Task4.main(new String[0]);
-//        assertEquals("1.25" + System.lineSeparator(), getOutput(), "Введено 5");
+//        assertEquals("1.25"+ System.lineSeparator(), getOutput(), "Введено 5");
 //    }
 //
 //    @Test
