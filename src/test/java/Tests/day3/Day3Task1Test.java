@@ -1,20 +1,20 @@
-//package Tests.day3;
-//
-//import Tests.AbstractTest;
-//import day3.Task1;
-//import org.junit.jupiter.api.Test;
-//
-//import static org.junit.jupiter.api.Assertions.assertEquals;
-//
-//
-//public class Day3Task1Test extends AbstractTest {
-//
-//    @Test
-//    public void Moscow() {
-//        setInput("Москва\nStop\n");
-//        Task1.main(new String[0]);
-//        assertEquals("Россия" + System.lineSeparator(), getOutput(), "Москва");
-//    }
+package Tests.day3;
+
+import Tests.AbstractTest;
+import day3.Task1;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+public class Day3Task1Test extends AbstractTest {
+
+    @Test
+    public void Moscow() {
+        setInput("Москва\nStop\n");
+        Task1.main(new String[0]);
+        assertEquals("Россия" + System.lineSeparator(), getOutput(), "Москва");
+    }
 //
 //    @Test
 //    public void Milan() {
@@ -44,4 +44,4 @@
 //        assertEquals("Неизвестная страна" + System.lineSeparator(), getOutput(), "Лиссабон");
 //    }
 //
-//}
+}
