@@ -10,12 +10,14 @@ public class Task4 {
         Scanner number = new Scanner(System.in);
         double x = number.nextDouble();
 
+        double y = 0;
         if (x >= 5) {
-            System.out.println((pow(x, 2) - 10) / (x + 7));
+            y = ((pow(x, 2) - 10) / (x + 7));
         } else if (x > -3 && x < 5) {
-            System.out.println((x + 3) * (pow(x, 2) - 2));
+            y = ((x + 3) * (pow(x, 2) - 2));
         } else {
-            System.out.println("420");
+            y = 420;
         }
+        System.out.println(y);
     }
 }
