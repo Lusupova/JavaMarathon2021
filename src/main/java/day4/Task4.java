@@ -12,10 +12,13 @@ public class Task4 {
         }
 
         for (int i = 0; i < numbers.length - 2; i++) {
-
-            int currentSum = numbers[i] + numbers[i + 1] + numbers[i + 2];
-            if (currentSum > maxSum) {
-                maxSum = currentSum;
+            int sum = 0;
+            for (int j = i; j < i + 3; j++) {
+                //int currentSum = numbers[i] + numbers[i + 1] + numbers[i + 2];
+                sum += numbers[j];
+            }
+            if (sum > maxSum) {
+                maxSum = sum;
                 firstElementIndex = i;
             }
         }
@@ -23,3 +26,4 @@ public class Task4 {
         System.out.println(firstElementIndex);
     }
 }
+

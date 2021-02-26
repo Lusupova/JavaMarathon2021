@@ -1,6 +1,5 @@
 package day4;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -18,14 +17,13 @@ public class Task1 {
 
         for (int i = 0; i < n; i++) {
             numbers[i] = (int) Math.round((Math.random() * 10));
-            sum = sum + numbers[i];
+            sum += numbers[i];
             if (numbers[i] > 8) {
                 countAboveEight++;
             }
             if (numbers[i] % 2 == 0) {
                 countEvenNumbers++;
-            }
-            if (numbers[i] % 2 != 0) {
+            }else if(numbers[i] % 2 != 0) {
                 counterOddNumbers++;
             }
             if (numbers[i] == 1) {

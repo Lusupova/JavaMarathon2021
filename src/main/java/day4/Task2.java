@@ -8,15 +8,15 @@ public class Task2 {
         int[] numbers = new int[100];
         int amountOfElements = 0;
         int sumElements = 0;
-        int max = 0;
-        int min = 1000;
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) Math.round((Math.random() * 1000));
         }
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
         for (int j : numbers) {
             if (j % 10 == 0) {
                 amountOfElements++;
-                sumElements = sumElements + j;
+                sumElements += j;
             }
             if (j > max) {
                 max = j;
