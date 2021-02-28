@@ -23,7 +23,7 @@ public class Task1 {
             }
             if (numbers[i] % 2 == 0) {
                 countEvenNumbers++;
-            }else{
+            } else {
                 counterOddNumbers++;
             }
             if (numbers[i] == 1) {

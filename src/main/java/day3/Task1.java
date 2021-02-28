@@ -28,6 +28,15 @@ public class Task1 {
                 default:
                     System.out.println("Неизвестная страна");
             }
+
+            // Alternative switch-case statement solution:
+            /*switch (city) {
+                case "Москва", "Владивосток", "Ростов" -> System.out.println("Россия");
+                case "Рим", "Милан", "Турин" -> System.out.println("Италия");
+                case "Ливерпуль", "Манчестер", "Лондон" -> System.out.println("Англия");
+                case "Берлин", "Мюнхен", "Кёльн" -> System.out.println("Германия");
+                default -> System.out.println("Неизвестная страна");
+            }*/
         }
     }
 }
