@@ -15,11 +15,11 @@ public class Task2 {
         System.out.println(timeConsumedMillis);
 
         long start2 = System.currentTimeMillis();
-        String stringNumbers;
+        String stringNumbers = "";
         for (int i = 0; i <= 20; i++) {
-            stringNumbers = i + " ";
-            System.out.print(stringNumbers);
+            stringNumbers += i + " ";
         }
+        System.out.println(stringNumbers);
         long finish2 = System.currentTimeMillis();
         long timeConsumedMillis2 = finish2 - start2;
         System.out.println(timeConsumedMillis2);
