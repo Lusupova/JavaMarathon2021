@@ -22,7 +22,7 @@ public class Day6AirplaneTest extends AbstractTest {
         a.fillUp(100);
         assertEquals(100, a.getFuel(), "Количество топлива 0, fillUp(100)");
         a.fillUp(400);
-        assertEquals(400, a.getFuel(), "Количество топлива 0, два вызова метода fillUp(100), fillUp(400)");
+        assertEquals(500, a.getFuel(), "Количество топлива 0, два вызова метода fillUp(100), fillUp(400)");
     }
 
     @Test
