@@ -3,5 +3,33 @@ package day11.task2;
 public class Task2 {
     public static void main(String[] args) {
 
+        Magician magician = new Magician();
+        Paladin paladin = new Paladin();
+        Shaman shaman = new Shaman();
+        Warrior warrior = new Warrior();
+
+        warrior.physicalAttack(paladin);
+        System.out.println(paladin.toString());
+        paladin.physicalAttack(magician);
+        System.out.println(magician.toString());
+        shaman.healTeammate(magician);
+        System.out.println(magician.toString());
+        magician.magicalAttack(paladin);
+        System.out.println(paladin.toString());
+        shaman.physicalAttack(warrior);
+        System.out.println(warrior.toString());
+        paladin.healHimself();
+        System.out.println(paladin.toString());
+        warrior.physicalAttack(magician);
+        System.out.println(magician);
+        warrior.physicalAttack(magician);
+        System.out.println(magician);
+        warrior.physicalAttack(magician);
+        System.out.println(magician);
+        warrior.physicalAttack(magician);
+        System.out.println(magician);
+        warrior.physicalAttack(magician);
+        System.out.println(magician);
+
     }
 }
