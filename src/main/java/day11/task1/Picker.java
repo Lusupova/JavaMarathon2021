@@ -35,8 +35,8 @@ public class Picker implements Worker {
         }
     }
 
+    @Override
     public String toString() {
-        return " ";
-
+        return "Picker with " + "salary : " + salary ;
     }
 }

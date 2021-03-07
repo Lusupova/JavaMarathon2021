@@ -1,9 +1,9 @@
 package day11.task2;
 
-public class Warrior extends Hero implements PhysAttack, MagicAttack {
+public class Warrior extends Hero implements MagicAttack {
 
     public Warrior() {
-        this.health = 100;
+       
         this.physAtt = 30;
         this.magicDef = 0.0;
         this.physDef = 0.8;

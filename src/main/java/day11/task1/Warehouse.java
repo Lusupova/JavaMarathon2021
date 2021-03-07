@@ -21,8 +21,10 @@ public class Warehouse {
         this.countDeliveredOrders = countDeliveredOrders;
     }
 
+    @Override
     public String toString() {
-        return " ";
-
+        return "Warehouse with " +
+                "picked orders amount: " + countPickedOrders +
+                " and delivered orders amount " + countDeliveredOrders;
     }
 }

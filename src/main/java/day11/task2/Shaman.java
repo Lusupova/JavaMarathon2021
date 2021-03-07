@@ -1,9 +1,9 @@
 package day11.task2;
 
-public class Shaman extends Hero implements Healer, PhysAttack {
+public class Shaman extends Hero implements Healer {
 
     public Shaman() {
-        this.health = 100;
+
         this.physAtt = 10;
         this.magicAtt = 15;
         this.physDef = 0.2;

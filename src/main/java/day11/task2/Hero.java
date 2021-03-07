@@ -1,7 +1,7 @@
 package day11.task2;
 
 public abstract class Hero implements PhysAttack {
-    protected double health;
+    protected double health = 100;
     protected int physAtt;
     protected int magicAtt;
     protected double physDef;

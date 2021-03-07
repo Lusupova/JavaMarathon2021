@@ -33,9 +33,8 @@ public class Courier implements Worker {
         }
     }
 
+    @Override
     public String toString() {
-        return " ";
-
+        return "Courier with " + "salary : " + salary ;
     }
-
 }
