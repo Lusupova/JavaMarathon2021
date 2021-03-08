@@ -37,9 +37,6 @@ public class MusicBand {
     }
 
     public List<String> getMembers(){
-        for (int i = 0; i < members.size(); i++) {
-           members.get(i);
-        }
         return members;
     }
 }

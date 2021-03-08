@@ -38,9 +38,6 @@ public class MusicBand {
     }
 
     public List<MusicArtist> getMembers(){
-        for (int i = 0; i < musicArtists.size(); i++) {
-           musicArtists.get(i);
-        }
         return musicArtists;
     }
 }
