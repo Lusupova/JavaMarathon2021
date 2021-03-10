@@ -1,7 +1,7 @@
 package day11.task1;
 
 public class Courier implements Worker {
-    Warehouse warehouse;
+    private Warehouse warehouse;
     private int salary;
     private boolean isPayed;
 

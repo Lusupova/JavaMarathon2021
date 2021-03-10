@@ -3,7 +3,7 @@ package day11.task1;
 public class Picker implements Worker {
     //  Сборщик” (англ. Picker) с полями salary (заработная плата) и isPayed (был выплачен бонус или нет), get методами для обоих полей, методом toString() и конструктором.
 
-    Warehouse warehouse;
+    private Warehouse warehouse;
     private int salary;
     private boolean isPayed;
 

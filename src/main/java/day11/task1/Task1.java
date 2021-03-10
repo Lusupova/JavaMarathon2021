@@ -9,8 +9,8 @@ public class Task1 {
         businessProcess(courier);
         businessProcess(picker);
 
-        System.out.println("Количество собранных заказов " + warehouse.getCountPickedOrders() + "Количество доставленных заказов "
-                + warehouse.getCountDeliveredOrders() + "Зарплата сборщика" + picker.getSalary() + "Зарплата Курьера  " + courier.getSalary());
+        System.out.println("Количество собранных заказов " + warehouse.getCountPickedOrders() + " Количество доставленных заказов "
+                + warehouse.getCountDeliveredOrders() + " Зарплата сборщика " + picker.getSalary() + " Зарплата Курьера  " + courier.getSalary());
     }
 
     static void businessProcess(Worker worker) {
