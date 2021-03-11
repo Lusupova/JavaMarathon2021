@@ -11,7 +11,7 @@ public class Task1 {
         File file = new File("src/main/resources/shoes.csv");
 
         try {
-            Scanner scanner = new Scanner(file);
+            Scanner scanner = null;
             PrintWriter pw = new PrintWriter("src/main/resources/missing_shoes.txt");
 
             while (scanner.hasNext()) {
